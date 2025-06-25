@@ -1,0 +1,35 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --btn-bg: #ddd;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--btn-bg);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Dark mode override */
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --btn-bg: #444;
+}
